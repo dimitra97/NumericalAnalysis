@@ -12,7 +12,7 @@ until we reach the root or an accuracy that we set or even a maximum number of i
 - Newton Raphson Mehtod 
 
 Newton Raphson method is an open method used for the numerical calculation of a function's root. In this method, we begin with an assumption about the root, xo.
-We calculate the 1st derivative of the function in xo f'(xo) which is the slope of the tangential. In this way we can find the bisetion point of the tangantial 
+We calculate the 1st derivative of the function in xo f'(xo) which is the slope of the tangential. In this way we can find the bisection point of the tangantial 
 and Ox axis xi=xo-f(xo)/f'(xo) and by several iterations we can reach an accuracy for the root, xi.
 
 ### Gauss Elimination in Linear Systems
