@@ -24,4 +24,12 @@ There are several transformations that can be performed in a linear system that 
 These transformations are conducted in this method in order to create the upper triangle matrix of the initial matrix. 
 We calculate the last root and then we go up to calculate the other variables. 
 
+###Euler and Runge Kutta method
 
+-Euler method
+
+The Euler method for the numerical solution of differential equations is based on the Taylor series preserving only first order terms. In this example the differential equation y'(x)=yx^2-1.1x is given and we need to find the value of y(2) with initial value y(0)=1. The method is tested for two steps, 0.5 and 0.25 and the corresponding errors have been calculated.
+
+-Runge Kutta method
+
+The 4th order Runge-Kutta method is also used for the solution of the same differential equation with step size 0.25. The four coefficients k1,k2,k3,k4 have been calculated for every iteration. 
